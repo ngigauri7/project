@@ -9,8 +9,9 @@ body {
 
 header {
   width: 1300px;
-  margin: 0 auto;
-  margin-bottom: 100px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  margin-top: -40px;
 }
 header h1 {
   font-size: 60px;
@@ -18,8 +19,8 @@ header h1 {
 }
 
 .container {
-  width: 1300px;
-  height: 300px;
+  width: 1000px;
+  height: 100%;
   margin: 0 auto;
 }
 .btn {
@@ -36,7 +37,7 @@ header h1 {
 .cardbox1 {
   display: flex;
   justify-content: space-between;
-  width: 1300px;
+  width: 1000px;
   margin: 0 auto;
   height: 100px;
 }
@@ -44,7 +45,7 @@ header h1 {
 .cardbox2 {
   display: flex;
   justify-content: space-between;
-  width: 1300px;
+  width: 1100px;
   margin: 0 auto;
   height: 100px;
   margin-top: 100px;
@@ -127,19 +128,22 @@ body {
   background-size: contain;
 }
 
-.card {
-  width: 1300px;
-
-  position: absolute;
-}
-
 .cardbox3 {
   display: flex;
   justify-content: space-between;
-  width: 1300px;
+  width: 1100px;
   margin: 0 auto;
   height: 100px;
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+.cardbox4 {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+  height: 100px;
+  margin-top: 50px;
 }
 
 .cardbox2 {
@@ -157,12 +161,12 @@ header {
 
 footer {
   width: 100%;
-  height: 100px;
+  height: 80px;
   background-color: rgb(0, 0, 0);
   opacity: 0.5;
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 79px;
 }
 
 footer h1 {
@@ -182,11 +186,11 @@ footer h2 {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  margin-top: 20px;
+  margin-top: -5px;
 }
 
 .footercard2 {
-  margin-top: 30px;
+  margin-top: 15px;
   display: flex;
   width: 150px;
   justify-content: space-between;
@@ -218,11 +222,39 @@ footer h2 {
   color: rgb(61, 60, 60);
 }
 
+.bugaltery2 {
+  color: rgb(61, 60, 60);
+}
+
+
+
 @media (max-width: 680px) {
   .cardbox2 {
-    width: 370px;
+    width: 440px;
     margin-left: 0;
-    margin-top: -70px;
+  }
+
+  header {
+    width: 442px;
+  }
+  .cardbox4 {
+    width: 440px;
+    margin-left: 0;
+    margin-top: -5px;
+  }
+
+  .container {
+    margin-top: 40px;
+    width: 442px;
+    height: 100%;
+    margin-left: 7px;
+    margin-right: 0px;
+  }
+.btnnn a {
+  text-align: center;
+}
+  header {
+    margin-left: 0px;
   }
 
   .ganat {
@@ -230,21 +262,23 @@ footer h2 {
   }
 
   .btnnn {
-    width: 100px;
+    width: 130px;
     height: 60px;
   }
- .bugaltery {
-  font-size: 14px;
-  color: white;
- }
-
-  .cardbox3 {
-    width: 370px;
-    margin-left: 0px;
+  .bugaltery {
+    font-size: 14px;
+    color: white;
   }
 
-  header {
-    width: 700px;
+  .cardbox3 {
+    width: 440px;
+    margin-left: 0px;
+    margin-top: -5px;
+  }
+
+  body {
+    width: 100%;
+    height: 100%;
   }
 
   header h1 {
@@ -252,7 +286,7 @@ footer h2 {
   }
 
   .card {
-    width: 370px;
+    width: 440px;
   }
 
   .default-side {
@@ -268,12 +302,16 @@ footer h2 {
     margin-top: 10px;
   }
 
+  footer {
+    margin-left: -10px;
+  }
+
   footer h2 {
     margin-top: 10px;
   }
 
   footer {
-    max-width: 450px;
+    max-width: 458px;
   }
 
   .carda12 {
@@ -284,6 +322,10 @@ footer h2 {
     font-size: 14px;
   }
 
+  .carda2 {
+    font-size: 14px;
+  }
+
   .side {
     font-size: 19px;
   }
@@ -291,4 +333,38 @@ footer h2 {
   .carda11 {
     font-size: 14px;
   }
+
+  .carda22 {
+    font-size: 14px;
+  }
+
+  .footercard1 {
+    width: 300px;
+  }
+
+  footer h1 {
+    margin-top: 23px;
+    margin-left: -5px;
+  }
+
+  footer h2 {
+    margin-top: 23px;
+  }
+
+  .fb {
+    width: 38px;
+    height: 38px;
+  }
+
+  .yt {
+    width: 60px;
+    height: 40px;
+    margin-right: 8px;
+  }
+
+  .line {
+    height: 43px;
+  }
+
+ 
 }

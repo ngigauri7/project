@@ -165,7 +165,8 @@ footer {
   opacity: 0.5;
   display: flex;
   justify-content: space-around;
-  margin-top: 79px;
+  margin-top: 110px;
+  margin-bottom: 0px;
 }
 
 footer h1 {
@@ -314,7 +315,7 @@ footer h2 {
 
   footer {
     max-width: 458px;
-    margin-top: 90%;
+    margin-top: 40%;
   }
 
   .carda12 {

@@ -10,12 +10,16 @@ body {
 header {
   width: 1300px;
   margin-left: 30px;
-  margin-bottom: 0px;
-  margin-top: -40px;
+  margin-bottom: 48px;
+
 }
+
+
 header h1 {
-  font-size: 60px;
-  color: rgb(167, 167, 167);
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-left: 360px;
 }
 
 .container {
@@ -36,7 +40,7 @@ header h1 {
 .cardbox1 {
   display: flex;
   justify-content: space-between;
-  width: 1000px;
+  width: 930px;
   margin: 0 auto;
   height: 100px;
 }
@@ -44,7 +48,7 @@ header h1 {
 .cardbox2 {
   display: flex;
   justify-content: space-between;
-  width: 1100px;
+  width: 930px;
   margin: 0 auto;
   height: 100px;
   margin-top: 100px;
@@ -57,18 +61,19 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 29px;
 }
 
 .default-side {
   background-color: none;
-  border: 5px solid rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
   transform: translateZ(50px);
 }
 
 .first {
   color: rgb(255, 255, 255);
+
 }
 
 .second {
@@ -90,7 +95,7 @@ header h1 {
 .btnnn {
   position: relative;
   height: 100px;
-  width: 300px;
+  width: 250px;
   transform-style: preserve-3d;
   transition: transform 300ms ease-in-out;
 
@@ -103,34 +108,35 @@ a {
 }
 
 .carda1 {
-  font-size: 34px;
+  font-size: 27px;
   color: white;
+  margin-top:-8px ;
+text-align: center;
 }
 
 .carda2 {
-  font-size: 34px;
+  font-size: 27px;
   color: rgb(61, 60, 60);
 }
 
 .carda11 {
-  font-size: 26px;
+  font-size: 20px;
   color: white;
 }
 
 .carda22 {
-  font-size: 26px;
+  font-size: 20px;
   color: rgb(61, 60, 60);
 }
 
-body {
-  background-repeat: no-repeat;
-  background-size: contain;
+.carda12 {
+  text-align: center;
 }
 
 .cardbox3 {
   display: flex;
   justify-content: space-between;
-  width: 1100px;
+  width: 930px;
   margin: 0 auto;
   height: 100px;
   margin-top: 50px;
@@ -139,7 +145,7 @@ body {
 .cardbox4 {
   display: flex;
   justify-content: space-between;
-  width: 1100px;
+  width: 930px;
   margin: 0 auto;
   height: 100px;
   margin-top: 50px;
@@ -150,50 +156,117 @@ body {
 }
 
 body {
-  background-color: rgb(1, 1, 29);
+  background-color: rgba(0, 91, 8, 0.784);
+}
+body {
+  background-image: url(images/for\ project\ 3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
   display: flex;
   justify-content: space-between;
 }
-
+body {
+  height: 100%;
+}
 footer {
-  width: 100%;
+  width: 90%;
   height: 80px;
-  background-color: rgb(0, 0, 0);
-  opacity: 0.5;
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-around;
-  margin-top: 110px;
+  margin-top: 90px;
   margin-bottom: 0px;
+  margin: 0 auto;
+  margin-top: 65px;
 }
 
 footer h1 {
   font-size: 15px;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-top: 30px;
 }
 
 footer h2 {
-  font-size: 15px;
-  color: white;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   margin-top: 30px;
 }
 
 .footercard1 {
-  width: 700px;
+  width: 380px;
   display: flex;
   justify-content: space-between;
   text-align: center;
   margin-top: -5px;
+  margin-left:-30px;
+}
+
+.footercard1 img {
+  width: 150px;
+  height: 140px;
+  margin-top: -24px;
+}
+
+.footercard1 h1 {
+  margin-top: 36px;
+}
+
+.footercard1 a {
+  margin-top: 32px;
+}
+
+.middlefootercard {
+  width: 200px;
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: -50px;
+}
+
+.middlefootercard i {
+  margin-top: 30px;
+}
+
+.middlefootercard h1 {
+  font-size: 22px;
+  margin-top: 17px;
+  margin-left: 6px;
+}
+
+.locationcard {
+  width: 320px;
+  margin-top: 5px;
+  display: flex;
+}
+
+.locationcard i {
+  margin-top: 30px;
+  margin-right: 5px;
+}
+
+.locationcard h1 {
+  margin-top: 12px;
 }
 
 .footercard2 {
-  margin-top: 15px;
+  margin-top: 25px;
   display: flex;
-  width: 150px;
+  width: 200px;
   justify-content: space-between;
+}
+
+.footercard2 i {
+  margin-top:15px ;
+}
+
+.footercard2 img {
+  width: 32px;
+  margin-top:-25px ;
 }
 .fb {
   width: 50px;
@@ -209,6 +282,7 @@ footer h2 {
 
 .bugaltery {
   color: white;
+  text-align: center;
 }
 .line {
   height: 50px;
@@ -226,8 +300,51 @@ footer h2 {
   color: rgb(61, 60, 60);
 }
 
+.ganats1 {
+  width: 700px;
+  height: 400px;
+  border: 2px solid white;
+  margin: 0 auto;
+}
 
+.ganatlebaheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+}
 
+.ganatlebaheader h1 {
+  margin-top: 0px;
+}
+
+.ganatlebaheader h2 {
+  font-size: 60px;
+  color: rgb(167, 167, 167);
+  margin-top: 0px;
+}
+
+.ganatlebaheader a {
+  font-size: 60px;
+  color: rgb(167, 167, 167);
+  margin-top: 0px;
+}
+
+.footer1 {
+  margin-top: 80px;
+}
+
+.footer2 {
+  margin-top: 80px;
+}
+.footer3 {
+  margin-top: 80px;
+}
+
+.footer4 {
+  margin-top:80px ;
+}
 @media (max-width: 680px) {
   .cardbox2 {
     width: 360px;

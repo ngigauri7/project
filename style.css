@@ -16,10 +16,12 @@ header {
 
 
 header h1 {
-  font-size: 50px;
+  font-size: 55px;
   color: rgb(255, 255, 255);
   margin: 0 auto;
-  margin-left: 360px;
+  margin-left: 320px;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  margin-top: 30px;
 }
 
 .container {
@@ -62,6 +64,7 @@ header h1 {
   justify-content: center;
   align-items: center;
   font-size: 29px;
+  text-align: center;
 }
 
 .default-side {
@@ -105,6 +108,10 @@ header h1 {
 
 a {
   text-decoration: none;
+
+  font-family: "ArchyEDT-Bold", sans-serif;
+  
+
 }
 
 .carda1 {
@@ -112,20 +119,23 @@ a {
   color: white;
   margin-top:-8px ;
 text-align: center;
+
 }
 
 .carda2 {
   font-size: 27px;
   color: rgb(61, 60, 60);
+  text-align: center;
+
 }
 
 .carda11 {
-  font-size: 20px;
+  font-size: 27px;
   color: white;
 }
 
 .carda22 {
-  font-size: 20px;
+  font-size: 27px;
   color: rgb(61, 60, 60);
 }
 
@@ -171,6 +181,8 @@ header {
 body {
   height: 100%;
 }
+
+
 footer {
   width: 90%;
   height: 80px;
@@ -294,10 +306,12 @@ footer h2 {
 
 .carda21 {
   color: rgb(61, 60, 60);
+  text-align: center;
 }
 
 .bugaltery2 {
   color: rgb(61, 60, 60);
+  text-align: center;
 }
 
 .ganats1 {
@@ -344,6 +358,19 @@ footer h2 {
 
 .footer4 {
   margin-top:80px ;
+}
+
+.footercard1 h2 {
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+
+}
+
+
+
+
+.locationcard h1 {
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+
 }
 @media (max-width: 680px) {
   .cardbox2 {

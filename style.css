@@ -11,9 +11,7 @@ header {
   width: 1300px;
   margin-left: 30px;
   margin-bottom: 48px;
-
 }
-
 
 header h1 {
   font-size: 55px;
@@ -76,7 +74,6 @@ header h1 {
 
 .first {
   color: rgb(255, 255, 255);
-
 }
 
 .second {
@@ -110,23 +107,19 @@ a {
   text-decoration: none;
 
   font-family: "ArchyEDT-Bold", sans-serif;
-  
-
 }
 
 .carda1 {
   font-size: 27px;
   color: white;
-  margin-top:-8px ;
-text-align: center;
-
+  margin-top: -8px;
+  text-align: center;
 }
 
 .carda2 {
   font-size: 27px;
   color: rgb(61, 60, 60);
   text-align: center;
-
 }
 
 .carda11 {
@@ -182,7 +175,6 @@ body {
   height: 100%;
 }
 
-
 footer {
   width: 90%;
   height: 80px;
@@ -213,7 +205,7 @@ footer h2 {
   justify-content: space-between;
   text-align: center;
   margin-top: -5px;
-  margin-left:-30px;
+  margin-left: -30px;
 }
 
 .footercard1 img {
@@ -257,7 +249,7 @@ footer h2 {
 }
 
 .locationcard i {
-  margin-top: 30px;
+  margin-top: 26px;
   margin-right: 5px;
 }
 
@@ -273,12 +265,12 @@ footer h2 {
 }
 
 .footercard2 i {
-  margin-top:15px ;
+  margin-top: 15px;
 }
 
 .footercard2 img {
   width: 32px;
-  margin-top:-25px ;
+  margin-top: -25px;
 }
 .fb {
   width: 50px;
@@ -357,20 +349,114 @@ footer h2 {
 }
 
 .footer4 {
-  margin-top:80px ;
+  margin-top: 80px;
 }
 
 .footercard1 h2 {
   font-family: "ALK Rounded Mtav Med", sans-serif;
+}
+
+.locationcard i {
+  animation-name: examplee;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  transition: ease-out;
+  margin-right: 10px;
+}
+
+.locationcard {
+  width: 350px;
+}
+
+.map {
+  margin: 0 auto;
+  width: 700px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.locationheader {
+  display: block;
+}
+
+.locationheader div {
+  display: inline-block;
+  color: white;
+  font-size: 45px;
+  margin-bottom: -48px;
+  margin-top: -45px;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+}
+
+.ldiv1 {
+  margin-right: 400px;
+
+  width: 50px;
+  height: 50px;
+}
+
+.locationheader div a  h3{
+  color: white;
+  animation-name: exampleee;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  transition: ease-out;
+  color: rgba(255, 255, 0, 0.845);
 
 }
 
 
 
 
+
+@keyframes exampleee {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.2;
+  }
+}
+@keyframes example {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.5;
+  }
+}
+
+@keyframes examplee {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.7;
+  }
+}
+
+.footercard1 h1 {
+  animation-name: example;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  transition: ease-out;
+  margin-right: 8px;
+  margin-top: 38px;
+}
+
+.middlefootercard i {
+  animation-name: example;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  transition: ease-out;
+  margin-right: 8px;
+  margin-top: 38px;
+}
+
 .locationcard h1 {
   font-family: "ALK Rounded Mtav Med", sans-serif;
-
+  margin-left: 8px;
+  
 }
 @media (max-width: 680px) {
   .cardbox2 {
@@ -523,3 +609,4 @@ footer h2 {
     margin-top: 40px;
   }
 }
+
